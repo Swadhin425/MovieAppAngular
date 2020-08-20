@@ -77,5 +77,11 @@ router.get("/logout",auth, (req, res) => {
   })
 });
 
+//Log out user
+router.get("/getDetails", (req, res) => {
+ 
+res.send("user details")
+});
+
 
 module.exports = router;
